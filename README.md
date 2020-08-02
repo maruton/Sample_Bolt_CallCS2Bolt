@@ -8,8 +8,11 @@ Unity 2019.4.3f1 で作成。
 
 1. 空のUnityプロジェクトを作成。  
 2. Bolt をインストール＆Setup Wizard。  
-3. Sample_Bolt_CallCS2Bolt.unitypackage をインポート。  
-4. シーン /Assets/Scenes/Main をダブルクリックして読み込む。  
+3. 'Sample_Bolt_CallCS2Bolt.zip' を以下のリンクからダウンロード。
+   https://github.com/maruton/Sample_Bolt_CallCS2Bolt/releases/tag/Rel1.0
+4. 展開すると 'Sample_Bolt_CallCS2Bolt.unitypackage' ができるのでUnityにインポート。  
+5. シーン /Assets/Scenes/Main をダブルクリックして読み込む。  
+6. 実行する。
 
 ## 簡易説明
 Hierarchy内の Bolt_Object に以下がコンポーネントで付与されています。  
@@ -36,10 +39,20 @@ Unity 2019.4.3f1
 
 ## Install & Setup
 
-1. Create new Unity project.  
-2. Install Bolt from Asset store, and Setup Wizard.  
+3. Download 'Sample_Bolt_CallCS2Bolt.zip' below link.
+   https://github.com/maruton/Sample_Bolt_CallCS2Bolt/releases/tag/Rel1.0
+4. Extract Sample_Bolt_CallCS2Bolt.unitypackage.zip を展開。
+   Unityパッケージができるのでインポート。  
 3. Import Sample_Bolt_CallCS2Bolt.unitypackage.  
 4. Load scene /Assets/Scenes/Main.  
+
+1. Create new Unity project.  
+2. Install Bolt from Asset store, and Setup Wizard.  
+3. Download 'Sample_Bolt_CallCS2Bolt.zip' below link.  
+   https://github.com/maruton/Sample_Bolt_CallCS2Bolt/releases/tag/Rel1.0  
+4. Extract and, Import unity.  
+5. Load scene /Assets/Scenes/Main.  
+6. Go PLAY.
 
 ## What about procedure
 Adde all component to 'Bolt_Object' in Hierarchy.
