@@ -110,7 +110,3 @@ UnityPrj/Doxygen/Output/**/*
 
 __*/
 
-# Release Package
-!Export_Project/*
-
-
