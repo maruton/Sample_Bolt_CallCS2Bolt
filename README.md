@@ -2,40 +2,57 @@
 see english to the second half of the page.
 
 ## C#からBoltのノードを呼び出すサンプル
-
 Unity 2019.4.3f1 で作成。
 
-Clone後、別途 Bolt のインストール＆設定が必要。  
+## インストール＆セットアップ
 
+1. 空のUnityプロジェクトを作成。  
+2. Bolt をインストール＆Setup Wizard。  
+3. Sample_Bolt_CallCS2Bolt.unitypackage をインポート。  
+4. シーン /Assets/Scenes/Main をダブルクリックして読み込む。  
 
-## Boltのインストール  
-
-Boltのインストール：https://note.com/maruton/n/n95baa38ba5d2?magazine_key=mca678331a1f5  
+## 簡易説明
+Hierarchy内の Bolt_Object に以下がコンポーネントで付与されています。  
   
+  C#スクリプト  
+  Flow Graph  
+  State Graph  
   
+C#スクリプトから、Flow Graph及び、State Graph の Custom Eventを呼び出しています。 
+単純に加算値を引数で渡しています。  
+
+Flow Graph、State Graphの各Custom Eventでは引数の加算値を各シーン変数に累積加算して、結果をDebug.Logで表示しています。 
+  
+
+
 ## ライセンス
 BSDライセンス準拠。ただし著作権・免責の表示は不要。  
 ※自己責任において自由にご使用下さい。  
-  
-  
-  
-  
   
 -------------------------------------------------------------------------------------  
 ## Sample for Bolt using TextMesh Pro
 
 Unity 2019.4.3f1
 
-Clone, and need to install Bolt, and setup.  
+## Install & Setup
+
+1. Create new Unity project.  
+2. Install Bolt from Asset store, and Setup Wizard.  
+3. Import Sample_Bolt_CallCS2Bolt.unitypackage.  
+4. Load scene /Assets/Scenes/Main.  
+
+## What about procedure
+Adde all component to 'Bolt_Object' in Hierarchy.
   
+  C# script
+  Flow Graph  
+  State Graph  
+
+Call each Custom Event from C# script that Flow Graph and State Graph.  
+Each argment is add value.  
+Custom event is add value to each self counter variable. and current value to output Debug.Log.  
   
-## Install Bolt (ja)
-https://note.com/maruton/n/n95baa38ba5d2?magazine_key=mca678331a1f5  
-  
-  
-## Setup Bolt (ja)
-https://note.com/maruton/n/n0c45d5d19b8e?magazine_key=mca678331a1f5  
-  
+
   
 ## License
 Modified BSD license.  
