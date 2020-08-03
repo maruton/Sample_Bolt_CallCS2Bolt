@@ -48,7 +48,7 @@ Unity 2019.4.3f1
 6. Go PLAY.
 
 ## What about procedure
-Adde all component to 'Bolt_Object' in Hierarchy.
+Added all component to 'Bolt_Object' in Hierarchy.
   
   C# script
   Flow Graph  
